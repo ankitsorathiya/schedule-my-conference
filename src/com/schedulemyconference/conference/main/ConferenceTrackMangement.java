@@ -34,9 +34,9 @@ public class ConferenceTrackMangement {
     public static void main(String[] args) {
         try {
             ConferenceTrackMangement conferenceTrackMangement = new ConferenceTrackMangement();
-            String inputTalksFilePath = URLDecoder.decode(ConferenceTrackMangement.class.getResource("/com/thoughtworks/resources/talkInput.txt").getPath(), "utf-8");
-            String outputConferenceFilePath = URLDecoder.decode(ConferenceTrackMangement.class.getResource("/com/thoughtworks/resources/conferenceOutput.txt").getPath(), "utf-8");
-            String conferenceEventInputFilePath = URLDecoder.decode(ConferenceTrackMangement.class.getResource("/com/thoughtworks/resources/conferenceEventInput.txt").getPath(), "utf-8");
+            String inputTalksFilePath = URLDecoder.decode(ConferenceTrackMangement.class.getResource("/com/schedulemyconference/resources/talkInput.txt").getPath(), "utf-8");
+            String outputConferenceFilePath = URLDecoder.decode(ConferenceTrackMangement.class.getResource("/com/schedulemyconference/resources/conferenceOutput.txt").getPath(), "utf-8");
+            String conferenceEventInputFilePath = URLDecoder.decode(ConferenceTrackMangement.class.getResource("/com/schedulemyconference/resources/conferenceEventInput.txt").getPath(), "utf-8");
             conferenceTrackMangement.testOutMyConferenceScheduler(inputTalksFilePath, outputConferenceFilePath, conferenceEventInputFilePath);
         } catch (UnsupportedEncodingException ex) {
             Logger.getLogger(ConferenceTrackMangement.class.getName()).log(Level.SEVERE, null, ex);
