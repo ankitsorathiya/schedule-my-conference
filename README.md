@@ -7,3 +7,5 @@ and you have couple similar talks as well.
 You also wanna give break between just to make sure people who all are attending won't get a sleep:)
 
 if you are having these kind of need you can surely use this project.
+
+Please refer /src/com/schedulemyconference/resources/ folder for input format.
