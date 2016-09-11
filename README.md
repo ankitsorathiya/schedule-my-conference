@@ -10,6 +10,6 @@ if you are having these kind of need you can surely use this project.
 
 Please refer /src/com/schedulemyconference/resources/ folder for input format.
 
-Technical Notes:
-##Programming Language: Java 
-##JDK 1.7
+##Technical Notes:
+Programming Language: Java 
+JDK 1.7
